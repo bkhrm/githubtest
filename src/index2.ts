@@ -74,3 +74,9 @@ class Arr {
 }
 
 let obj = new Word("kim", 3, 5, "park");
+
+type wool = (ar: string) => string;
+
+let r: wool = function (str) {
+  return str.replace(/-/g, "");
+};
