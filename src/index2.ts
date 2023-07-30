@@ -74,3 +74,5 @@ class Arr {
 }
 
 let obj = new Word("kim", 3, 5, "park");
+
+수정했음;
